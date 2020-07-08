@@ -20,6 +20,10 @@
     "boolean",
     "helper"
   ],
+  "files": [
+    "dist",
+    "index.ts"
+  ],
   "author": {
     "name": "Mykola Harmash",
     "email": "mykola.harmash@gmail.com",

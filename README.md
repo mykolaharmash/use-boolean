@@ -29,6 +29,8 @@ function App() {
 }
 ```
 
+## [Live Example](https://codesandbox.io/s/summer-sun-44zj2)
+
 ## API
 
 `useBoolean()` call

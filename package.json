@@ -1,0 +1,43 @@
+{
+  "name": "use-boolean",
+  "version": "1.0.0",
+  "description": "React hook for more convenient handling of boolean state",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc -t 'ES2015' --moduleResolution 'Node' -m 'commonjs' --outDir './dist' index.ts",
+    "test": "npm run build && jest index.test.js",
+    "test:watch": "npm run build && jest --watch index.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hooks",
+    "useful-hooks",
+    "boolean",
+    "helper"
+  ],
+  "author": {
+    "name": "Mykola Harmash",
+    "email": "mykola.harmash@gmail.com",
+    "url": "https://stse.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mykolaharmash/use-boolean.git"
+  },
+  "homepage": "https://github.com/mykolaharmash/use-boolean",
+  "bugs": "https://github.com/mykolaharmash/use-boolean/issues",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@testing-library/react-hooks": "^3.3.0",
+    "jest": "^26.1.0",
+    "react": "^16.13.1",
+    "react-test-renderer": "^16.13.1",
+    "typescript": "^3.9.6"
+  }
+}
